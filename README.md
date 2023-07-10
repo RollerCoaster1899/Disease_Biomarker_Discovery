@@ -2,7 +2,7 @@
 This code is an R script that loads RNA-Seq data and performs data manipulation, analysis, and visualization. Here is a step-by-step breakdown of the code:
 Sets the working directory.
 Loads several libraries including dplyr, tidyverse, GEOquery, ggplot2, and tibble.
-Reads in the RNA-Seq data from a CSV file "DATA-1.csv".
+Reads in the RNA-Seq data from a CSV file "GSE183947_fpkm.csv". Which should be downloaded from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183947
 Retrieves metadata from a Gene Expression Omnibus (GEO) database using the GEOquery package and extracts relevant information.
 Renames and selects columns in the metadata.
 Reshapes the RNA-Seq data into a long format.
