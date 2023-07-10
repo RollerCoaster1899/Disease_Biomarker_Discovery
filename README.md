@@ -1,6 +1,6 @@
 # GeneDifferencialExpression
 This code is an R script that loads RNA-Seq data and performs data manipulation, analysis, and visualization. Here is a step-by-step breakdown of the code:
-Sets the working directory to "~/5.0 Proyectos/9.- Análisis de RNA-Seq/data".
+Sets the working directory.
 Loads several libraries including dplyr, tidyverse, GEOquery, ggplot2, and tibble.
 Reads in the RNA-Seq data from a CSV file "DATA-1.csv".
 Retrieves metadata from a Gene Expression Omnibus (GEO) database using the GEOquery package and extracts relevant information.
